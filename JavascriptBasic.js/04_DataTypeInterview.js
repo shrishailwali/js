@@ -1,6 +1,6 @@
-// Permeative and non-premetive datatypes
+// Primitive and non-Primitive datatypes
 
-//Premetive Datatype (7 types): String, Number, Boolean, Null, undefined, Symbol, BigInt
+//Primitive Datatype (7 types): String, Number, Boolean, Null, undefined, Symbol, BigInt
 
 // Javascript is a Dynamic Typed language Because Typed checked during the code Execute 
 
@@ -15,7 +15,7 @@ const anotherId = Symbol('123')
 
 // console.table(id === anotherId);
 
-// Reference Type (Non-premetive datatypes): Array, Objects, Functions
+// Reference Type (Non-Primitive datatypes): Array, Objects, Functions
 
 const heros= ['Shaktian','shri', 'sachin'];
 let  muobj ={
@@ -26,3 +26,27 @@ let  muobj ={
 const myFunction = function(){
     console.log("Function")
 }
+
+
+// *********************************Memory******************************************
+
+// Stack (Primitive), Heap (non-Primitive)
+ // Stack : copy 
+ // Heap : Reference 
+
+ let name_ = "Shrishail";
+ let anotherName = name_;
+ anotherName = "Shri"
+//  console.log(name_);
+//  console.log(anotherName)
+
+let userOne ={
+    email:"user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email ="user@gmail.com"
+
+console.log(userOne)
+console.log(userTwo)
