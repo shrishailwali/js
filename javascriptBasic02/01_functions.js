@@ -40,4 +40,5 @@ function handleObject(anyObject){
     console.log(`name ${anyObject.name_} and age ${anyObject.age}`)
 }
 
-handleObject(user)
+// handleObject(user)
+
