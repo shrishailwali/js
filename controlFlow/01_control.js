@@ -13,7 +13,7 @@ if(2==="2"){
 const score = 200;
 if (score > 100){
     let power = 'fly';
-    console.log(`${power}`)
+    // console.log(`${power}`)
 }
 
 // console.log(`${power}`)  //  not able to  access the power outside the if scope 
@@ -26,8 +26,15 @@ if (balance < 500){
 } else if(balance < 900){
     console.log('2')
 }else{
-    console.log('3')
+    // console.log('3')
+}
+const userLoggedIn = true
+const debitCard = true
+
+if (userLoggedIn && debitCard){
+    // console.log('allow')
 }
 
+// && => and || => or 
 
 
