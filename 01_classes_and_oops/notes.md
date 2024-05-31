@@ -11,7 +11,7 @@
 ## Parts of oop
 object literal
 
--constructor function
+-constructor function  => Every time we will get new instance 
 -prototype
 -classes
 -Instances (new, this)
@@ -23,3 +23,9 @@ Inheritance
 Polymorphism
 
 
+<!-- Javascript defult Behavior is prototype
+protyple inheritance 
+
+
+
+ -->
