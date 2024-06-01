@@ -7,10 +7,11 @@ document.addEventListener('click', function(e){
         feedback.style.color = 'red';
     }
     else{
-        feedback.textContent =''
+        feedback.textContent =`Successfully Collected the Item ${input}`
+        feedback.style.color = 'green'
         const li = document.createElement('li')
         li.textContent = input
         ul.append(li)
-        input =''
+        document.querySelector('#input').value = ''
     }
 })
