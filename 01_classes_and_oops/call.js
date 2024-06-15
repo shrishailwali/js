@@ -9,5 +9,8 @@ function createUser(userName, email, password){
     this.password = password
 }
 
-const chai = new createUser('Shrishail', 'shri@google.com',"1234")
-console.log(chai)
+// const chai = new createUser('Shrishail', 'shri@google.com',"1234")
+// console.log(chai)
+
+const discriptor = Object.getOwnPropertyDescriptors(Math,'PI')
+console.log(discriptor);
